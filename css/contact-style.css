@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgb(179, 252, 255), white );
+    
+}
+
+.main-container{
+    padding: 25px;
+    margin: 10% 15%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+    
+}
+.main-heading{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    background-color: black;
+    border-radius: 1rem;
+    color: var(--primery);
+}
+
+.sumbit{
+    width: 100%;
+    font-size: 16.5px;
+    background-color: var(--primery);
+    color: rgb(255, 255, 255);
+}
+
+.sumbit:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0, 230, 0);
+
+}
+input[text],input[email], fieldset,input[number],input[radio]{
+    word-spacing: 1em;
+    font-size: 1.5rem;
+}
