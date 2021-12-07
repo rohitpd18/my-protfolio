@@ -1,24 +1,22 @@
 *{
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-body{
-    background-image: linear-gradient(rgb(179, 252, 255), white );
-    
-}
 
-.main-container{
+
+.contact-container{
     padding: 25px;
     margin: 10% 15%;
     border: 2px solid black;
     border-radius: 5px;
     background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
-.main-heading{
+#contact-heading{
     text-align: center;
-    padding: auto;
+    font-size: 2rem;
+    padding: 5px;
     margin: auto;
     background-color: black;
     border-radius: 1rem;
@@ -26,6 +24,7 @@ body{
 }
 
 .sumbit{
+    padding: 0.5rem;
     width: 100%;
     font-size: 16.5px;
     background-color: var(--primery);
@@ -40,5 +39,7 @@ body{
 }
 input[text],input[email], fieldset,input[number],input[radio]{
     word-spacing: 1em;
-    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    /* font-size: 1.5rem; */
 }
