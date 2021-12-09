@@ -6,80 +6,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <!-- -----------------App icon------------ -->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <!-- -----------------Google font------------ -->
-
+    <!-- -----------------Google Font------------ -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap" rel="stylesheet">
-   
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
-        </style>
-        
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <!-- -----------------icon css------------ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+
+
 
     <!-- -----------------style css------------ -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/contact-style.css">
+
+
+
 </head>
 
 <body>
     <header class="">
-        <div class="">
-            <nav class="flex ">
-                <div>
-                    <h2>My Website</h2>
+        <div class="wrap">
+            <nav class="flex justify-around">
+                <div class="my-web roboto">
+                    <h1>My Website</h1>
                 </div>
-                <div class="flex">
-                    <a href="#">Home</a>
-                    <a href="#">About Me</a>
-                    <a href="#">Gallery</a>
-                    <a href="#">Contact</a>
+                <div class="flex main-menu ">
+                    <a href="#" class="menu ">Home</a>
+                    <a href="#" class="menu ">About Me</a>
+                    <a href="#" class="menu ">Gallery</a>
+                    <a href="#" class="menu ">Contact</a>
 
                 </div>
             </nav>
         </div>
 
         <div class=" flex  ">
-            <img src="./img/png_auto_x2.jpg" height="550px" alt="">
-            <div class="hero">
-                <h3>Rohit Prasad</h3>
-                <h1>I am a <span>developer</span> </h1>
-                <p>Welcome to my website here you will know about me and I hope you love it, I love to make website
+            <img src="./img/png_auto_x2.jpg" height="500px" class="primary-pic" alt="">
+            <div class="hero roboto">
+                <h1 class="">Rohit Prasad</h1>
+                <h1 class="heading">I am a <span class="primery">Developer</span> </h1>
+                <p class="into">Welcome to my website here you will know about me and I hope you love it, I love to make
+                    website
                     and also
                     like coding
-                </p>
-                <div><button class="button">View CV</button></div>
+                </p> <br>
+                <div> <a class="button" href="img/Resume.pdf" target="_blank">View CV</a></div>
             </div>
         </div>
 
     </header>
 
 
-    <section class="flex">
+    <section class="flex about-container">
         <div><img src="./img/man-2.jpg" height="350px" alt=""></div>
         <div class="about justify-between ">
-            <h2 class="style">About <span>Me</span></h2>
+            <h1 class="heading">About <span class="primery">Me</span></h1>
             <div class="aboutUs">
-                <h4>Hi! I am Rohit Prasad </h4>
-                <p class="black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque omnis
+                <h1>Hi! I am Rohit Prasad </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque omnis
                     sequ repudiandae facere veniam explicabo, cumque hic incidunt dignissimos quas, earum vel quos a
                     tempora
                     velit autem nostrum saepe sit!</p>
-                <p class="black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laboriosam dolor rerum
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laboriosam dolor rerum
                     possimus illo atque nisi doloremque odio, alias itaque, accusantium ipsum fugit inventore sequi
                     provident? Nihil optio possimus aut.</p>
 
-                <a class="black"  href="#"><i class="bi bi-facebook fa-2x" style="color: #3b5998;"></i></a>
-                <a class="black" target="_blank" href="https://www.instagram.com/rohitpd18/"><i class="bi bi-instagram fa-2x" style="color: #bc2a8d;"></i></a>
-                <a class="black" target="_blank" href="https://twitter.com/Rohit99502074"><i class="bi bi-twitter fa-2x" style="color: #1DA1F2;"></i></a>
-                <a class="black" target="_blank" href="https://github.com/rohitpd18"><i class="bi bi-github fa-2x"></i></a>
+                <br>
+
+                <a href="#" class="icon"><i class="bi bi-facebook "></i></a>
+                <a target="_blank" href="https://www.instagram.com/rohitpd18/" class="icon"><i
+                        class="bi bi-instagram "></i></a>
+                <a target="_blank" href="https://twitter.com/Rohit99502074" class="icon"><i
+                        class="bi bi-twitter"></i></a>
+                <a target="_blank" href="https://github.com/rohitpd18" class="icon"><i class="bi bi-github"></i></a>
             </div>
         </div>
         <div>
@@ -87,48 +87,57 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="gallery-container">
         <div>
 
-            <h1 class="flex justify-between "> <span class="gallery">Gallery</span< /h1>
+            <h1 class="text-center"> <span class="primery heading gallery-heading">Gallery</span</h1>
         </div>
-        <div class="justify-around pic-continer">
-            <img class="pic" src="./img/IMG_20210829_163217_791.webp" alt="">
-            <img class="pic" src="./img/IMG_20211013_163140_141.jpg" alt="">
-            <img class="pic" src="./img/IMG_20210908_210623_701.webp" alt="">
-            <img class="pic" src="./img/IMG_20210901_222419_128.webp" alt="">
-            <img class="pic" src="./img/man-2.jpg" alt="">
+        <div class=" pic-continer justify-around">
             <img class="pic" src="./img/fav.jpg" alt="">
+            <img class="pic" src="./img/IMG_20211013_163140_141.jpg" alt="">
+            <img class="pic" src="./img/IMG_20210901_222419_128.webp" alt="">
+            <img class="pic" src="./img/IMG_20210908_210623_701.webp" alt="">
+            <img class="pic" src="./img/man-2.jpg" alt="">
+            <img class="pic" src="./img/IMG_20210829_163217_791.webp" alt="">
         </div>
     </section>
 
+
+
+
     <section>
-        <form>
-            <div class="main-container">
-                <h1 class="main-heading">Contact Me</h1>
+        <div class="contact-container">
+            <form>
+                <h1 id="contact-heading" class=" heading ">Contact Me</h1><br>
                 <hr>
-                <p class="black">First Name: <input  type="text" name="fname" id="fname" required> </p>
-                <p class="black">Last Name: <input  type="text" name="lname" id="lname" required></p>
+                <p>First Name: <input type="text" name="fname" id="fname" required> </p> <br>
+                <p>Last Name: <input type="text" name="lname" id="lname" required></p>
                 <fieldset>
                     <legend>Gender</legend>
-                    <input  type="radio" name="gender" value="male" id="" required>Male
-                    <input  type="radio" name="gender" value="female" id="">Female
-                    <input  type="radio" name="gender" value="other" id="">Other
+                    <input type="radio" name="gender" value="male" id="" required>Male
+                    <input type="radio" name="gender" value="female" id="">Female
+                    <input type="radio" name="gender" value="other" id="">Other
 
                 </fieldset> <br>
-                <p class="black">Email: <input type="email" name="email" id="" required></p>
-                <p class="black">Mobile Number: <input type="number" name="M.No" id="" required></p>
-                <p class="black">Reaxon for Contact: <input type="text"></p>
+                <p>Email: <input type="email" name="email" id="" required></p><br>
+                <p>Mobile Number: <input type="number" name="M.No" id="" required></p><br>
+                <p>Reaxon for Contact: <input type="text"></p><br>
 
                 <input type="button" value="Sumbit" class="sumbit">
 
-            </div>
-        </form>
+            </form>
+        </div>
 
 
 
 
-    </section>
+    </section> 
+
+    <!------------Boostrap script ---------->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
 

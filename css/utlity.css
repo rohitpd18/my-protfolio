@@ -2,26 +2,34 @@
     --primery: #3dcfd3;
 }
 
+.primery{
+    color: var(--primery);
+}
+
+.roboto{
+    font-family: 'Roboto Slab', serif;    
+}
 .flex {
     display: flex;
-    justify-content: space-around;
 }
-.flex-1{
-    flex: 1;
+.wrap{
+    flex-wrap: wrap;
 }
 .justify-center{
     justify-content: center;
 }
-.justify-between{
+.justify-around{
     justify-content: space-around;
 }
-.justify-around{
+.justify-between{
     justify-content: space-between;
 }
 .text-center{
     text-align: center;
     
 }
+
+
 
 .button{
     border: 3px solid var(--primery);
@@ -30,7 +38,7 @@
     font-weight: 600;
     font-size: 2rem;
     background-color: transparent;
-    padding: 0.8rem 2rem;
+    padding: 0.5rem 1.8rem;
     margin-top: 2rem;
     transition: all 0.3s ease;
     font-family: "Gilda Display", serif;
